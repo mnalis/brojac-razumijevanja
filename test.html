@@ -34,7 +34,7 @@
 	}
 
 	.move-ltr{
-		  top: 5px;
+		  /*top: 5px;*/
 		  transform: rotate(360deg);
 		  transform-origin: 50% 50%;
 		    
@@ -46,12 +46,18 @@
 	function ltr(){
 		console.log("JS click, remove/add class");
 		var  abox = document.getElementsByClassName("box")[0];
-		abox.classList.remove("move-ltr");
-		
-		void (abox.offsetWidth);	// magic -- force reflow so animation works
-		forceReflowJS(document.documentElement);
-		
+
 		abox.classList.toggle("move-ltr");
+
+		forceReflowJS(document.documentElement);void (abox.offsetWidth);	// magic -- force reflow so animation works
+		
+
+//		abox.classList.remove("move-ltr");
+		
+//		var newone = abox.cloneNode(true);
+//		abox.parentNode.replaceChild(newone, abox);
+
+
 	}
 </script>
 </head>
