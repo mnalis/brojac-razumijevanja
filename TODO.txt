@@ -3,5 +3,8 @@
 - mobitel/laptop/tablet formatting
 - razmaknuti link na source code od drugih klikabilnih elemenata
 - HTML/CSS validator
+	https://validator.w3.org/
+	http://jigsaw.w3.org/css-validator/
+	https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
 - pametna ploca?
 - skola za zivot objave?
