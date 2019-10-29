@@ -16,10 +16,11 @@
 	  transition-property: transform;
 	}
 /*	.innerbox:hover{ */
-/*	.innerbox:active{ */
-	.innerbox:focus{
-	  transform: rotate(90deg);
-	  background-color:cyan;
+	.innerbox:active{
+/*	.innerbox:focus{ */
+		  transform: rotate(90deg);
+		  transform-origin: 50% 50%;
+		  background-color:cyan;
 	}
 	.old-move-ltr{
 	   -webkit-animation: moveltr 5s;
@@ -38,12 +39,16 @@
 	}
 </style>
 <script>
+	try{var forceReflowJS=(forceReflowJS=function(a){"use strict";void a.offsetHeight}).call.bind(Object.getOwnPropertyDescriptor(HTMLElement.prototype,"offsetHeight").get)}catch(e){}//anonyco
 	var  abox = document.getElementsByClassName("box")[0];
 	function ltr(){
 		console.log("JS click, remove/add class");
 		var  abox = document.getElementsByClassName("box")[0];
 		abox.classList.remove("move-ltr");
-		void (abox.offsetWidth);	// magic -- force reflow so animation works
+		
+		//void (abox.offsetWidth);	// magic -- force reflow so animation works
+		forceReflowJS(document.documentElement);
+		
 		abox.classList.add("move-ltr");
 	}
 </script>
