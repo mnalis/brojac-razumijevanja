@@ -1,1 +1,5 @@
 - skrivanje pojedinacnih countera (da se izbjegne bias oko odgovaranja)
+- HTML/CSS validator
+- mobitel/laptop/tablet formatting
+- pametna ploca?
+- skola za zivot objave?
