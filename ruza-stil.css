@@ -1,0 +1,63 @@
+html, body{
+	height: 100%;
+  	width: 100%;
+}
+
+#container{
+	background-color:#CAC7C5;
+	padding:0px;
+	margin:0 auto;
+}
+
+.glavni{
+	height:90%;
+	border-collapse: collapse;
+	margin-bottom:1em;
+	
+}
+
+.glavni tr{
+	padding:0px;
+	margin:0;
+	width: 100%;
+	border-style: solid;
+		
+}
+
+.glavni td{
+	vertical-align:middle;
+	padding:0.5em;
+	
+	
+}
+
+.smiley{
+	vertical-align:middle;
+	text-decoration:none;
+	font-size:21vh;
+	color:black;
+}
+
+.smileyhappy{
+	background-color: green;
+}
+
+.smileyneutral{
+	/*background-color:yellow;*/
+}
+
+.smileysad{
+	background-color:red;
+}
+
+.brojac th{
+	background-color:#c2b4f1;
+}
+
+.brojac table, .brojac th, .brojac td{
+  	border: 1px solid black;
+}
+
+
+
+	
