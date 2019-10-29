@@ -38,15 +38,15 @@ html, body{
 	color:black;
 }
 
-.smileyhappy{
+#smileyhappy{
 	background-color: green;
 }
 
-.smileyneutral{
+#smileyneutral{
 	/*background-color:yellow;*/
 }
 
-.smileysad{
+#smileysad{
 	background-color:red;
 }
 
