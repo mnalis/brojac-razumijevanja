@@ -18,7 +18,7 @@
 /*	.innerbox:hover{ */
 /*	.innerbox:active{ */
 /*	.innerbox:focus{ */
-	.box:hover{
+	.box:active{
 		  transform: rotate(90deg);
 		  transform-origin: 50% 50%;
 		  background-color:cyan;
@@ -34,7 +34,7 @@
 	}
 
 	.move-ltr{
-		  top: 20px;
+		  top: 5px;
 		  transform: rotate(360deg);
 		  transform-origin: 50% 50%;
 		    
@@ -51,7 +51,7 @@
 		void (abox.offsetWidth);	// magic -- force reflow so animation works
 		forceReflowJS(document.documentElement);
 		
-		abox.classList.add("move-ltr");
+		abox.classList.toggle("move-ltr");
 	}
 </script>
 </head>
