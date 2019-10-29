@@ -1,6 +1,7 @@
 - skrivanje pojedinacnih countera (da se izbjegne bias oko odgovaranja)
 - HTML5 animacije prilikom clicka, zvuk?
 - mobitel/laptop/tablet formatting
+- razmaknuti link na source code od drugih klikabilnih elemenata
 - HTML/CSS validator
 - pametna ploca?
 - skola za zivot objave?
