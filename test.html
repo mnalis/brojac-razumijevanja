@@ -60,9 +60,41 @@
 
 	}
 </script>
+
+<style>
+.button {
+  position: relative;
+  background-color: #4CAF50;
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+
+}
+
+.button:after {
+  content: "H--O";
+  background: #90EE90;
+  display: block;
+  transition: all 0.8s;
+  transform: rotate(360deg);
+}
+
+.button:active:after {
+  transform: rotate(0deg);
+  transition: all 0s;
+}
+
+</style>
+
 </head>
 <body>
 	<div class="box"><a href="#" onclick="return false;" class="innerbox">&#128515;</a></div>
 	<button onclick="ltr()">click</button>
+	
+	
+	<h2>Animated Button - Ripple Effect</h2>
+	<div class="button">Click Me</div>
 </body>
 </html>
