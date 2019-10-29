@@ -1,10 +1,11 @@
 - skrivanje pojedinacnih countera (da se izbjegne bias oko odgovaranja)
-- HTML5 animacije prilikom clicka, zvuk?
+- HTML5 animacije prilikom clicka, zvuk? delay?
 - mobitel/laptop/tablet formatting
-- razmaknuti link na source code od drugih klikabilnih elemenata
+	- razmaknuti link na source code od drugih klikabilnih elemenata
+	- google check mobile usability
 - HTML/CSS validator
-	https://validator.w3.org/
-	http://jigsaw.w3.org/css-validator/
-	https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
+	- https://validator.w3.org/
+	- http://jigsaw.w3.org/css-validator/
+	- https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
 - pametna ploca?
 - skola za zivot objave?
