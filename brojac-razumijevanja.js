@@ -7,7 +7,7 @@ function initHandlers() {
 	//console.log ("start initHandlers");
 
         // svaka izmjena podataka neka radi novi izracun
-        document.getElementById('smileyhappy').onclick		= function(){return incrementCounter('count_happys')}; 
+        document.getElementById('smileyhappy').onclick		= function(){return incrementCounter('count_happy')}; 
         document.getElementById('smileyneutral').onclick	= function(){return incrementCounter('count_neutral')};
         document.getElementById('smileysad').onclick		= function(){return incrementCounter('count_sad')};
 
@@ -24,8 +24,11 @@ function initHandlers() {
 function incrementCounter(id) {
         'use strict';
 	console.log(id);
-	alert('increment!');
-	return false;   // important: so submit button does nothing
+	var count_id = +document.getElementById(id).innerHTML;		// convert string to number
+	document.getElementById(id).innerHTML = count_id + 1;
+	var count_total = +document.getElementById('count_total').innerHTML;
+	document.getElementById('count_total').innerHTML = count_total + 1;
+	return false;							// important: so submit button does nothing
 }
 
 initHandlers();
