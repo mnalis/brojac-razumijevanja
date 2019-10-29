@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	.box {
+	  width: 100px;
+	  height: 100px;
+	  background: red;
+	  position: relative;
+	  font-size: 80px;
+	  
+	  overflow: hidden;
+	  transition-duration: 0.8s;
+	  transition-property: transform;
+	}
+/*	.innerbox:hover{ */
+/*	.innerbox:active{ */
+	.innerbox:focus{
+	  transform: rotate(90deg);
+	  background-color:cyan;
+	}
+	.old-move-ltr{
+	   -webkit-animation: moveltr 5s;
+	  animation: moveltr 5s;
+	}
+	@keyframes moveltr {
+	  0%   { left: 0px; top: 0px;}
+	  50%  {left: 200px; top: 0px;}
+	  100% {left: 0px; top: 0px;}
+	}
+
+	.move-ltr{
+		  transform: rotate(360deg);
+		  transform-origin: 50% 50%;
+		    
+	}
+</style>
+<script>
+	var  abox = document.getElementsByClassName("box")[0];
+	function ltr(){
+		console.log("JS click, remove/add class");
+		var  abox = document.getElementsByClassName("box")[0];
+		abox.classList.remove("move-ltr");
+		void (abox.offsetWidth);	// magic -- force reflow so animation works
+		abox.classList.add("move-ltr");
+	}
+</script>
+</head>
+<body>
+	<div class="box"><a href="#" onclick="return false;" class="innerbox">&#128515;</a></div>
+	<button onclick="ltr()">click</button>
+</body>
+</html>
