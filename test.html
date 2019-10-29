@@ -16,8 +16,9 @@
 	  transition-property: transform;
 	}
 /*	.innerbox:hover{ */
-	.innerbox:active{
+/*	.innerbox:active{ */
 /*	.innerbox:focus{ */
+	.box:hover{
 		  transform: rotate(90deg);
 		  transform-origin: 50% 50%;
 		  background-color:cyan;
@@ -33,6 +34,7 @@
 	}
 
 	.move-ltr{
+		  top: 20px;
 		  transform: rotate(360deg);
 		  transform-origin: 50% 50%;
 		    
@@ -46,7 +48,7 @@
 		var  abox = document.getElementsByClassName("box")[0];
 		abox.classList.remove("move-ltr");
 		
-		//void (abox.offsetWidth);	// magic -- force reflow so animation works
+		void (abox.offsetWidth);	// magic -- force reflow so animation works
 		forceReflowJS(document.documentElement);
 		
 		abox.classList.add("move-ltr");
