@@ -3,6 +3,7 @@
 - mobitel/laptop/tablet formatting
 	- razmaknuti link na source code od drugih klikabilnih elemenata
 	- google check mobile usability
+	- utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi?
 - HTML/CSS validator
 	- https://validator.w3.org/
 	- http://jigsaw.w3.org/css-validator/
