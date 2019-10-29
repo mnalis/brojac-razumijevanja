@@ -1,5 +1,4 @@
-USER=$(shell find . -maxdepth 1 -name index.html  -printf %u)
-LASTDATE=$(shell find *.js *.html -printf "%TY-%Tm-%Td\n" | sort -gr | head -n 1)
+USER=$(shell find . -maxdepth 1 -name brojac-razumijevanja.html  -printf %u)
 
 nothing:
 	@echo Doing nothing as user=$(USER)...
