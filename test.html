@@ -32,18 +32,37 @@ a {
   font-size: 72px; /* 72px is OK on LG G3, 73px displays nothing !! */
 }
 
-.big2 {
-  font-size: 73px;
-}
-
 </style>
-
 </head>
 <body>
        <div class="button"><a href="#" onclick="return false;" class="innerbox">&#128557;</a></div>
        v12
        <div class="big1">[&#128557;] size72</div>
-       <div class="big2">[&#128557;] size73</div>
+       <div style="font-size: 73px;" id="parent">[&#128557;] size<input id="number" type="number" value="73" step="1"></div>
 
+<script defer>
+function initHandlers() {
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+	'use strict';
+	//console.log ("start initHandlers");
+
+	document.getElementById('number').onchange		= change_size;
+	change_size();
+
+	//console.log ("end initHandlers");
+	return true;
+}
+
+function change_size() {
+	'use strict';
+
+	var elem = document.getElementById('number');
+	var val = elem.value;
+	document.getElementById("parent").style = "font-size: " + val +"px;";
+}
+
+initHandlers();
+
+</script>
 </body>
 </html>
