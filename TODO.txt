@@ -1,9 +1,13 @@
 - skrivanje pojedinacnih countera (da se izbjegne bias oko odgovaranja)
 - HTML5 animacije prilikom clicka, zvuk? delay?
+  rotate? ili http://dabblet.com/gist/1670827 
 - mobitel/laptop/tablet formatting
 	- razmaknuti link na source code od drugih klikabilnih elemenata
 	- google check mobile usability
-	- utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi?
+	- utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi? 
+	  vidi test.html tamo ima i radi/ne radi primjer!
+	  izgleda da je limit 72px ?! vidi sa media selektorima ili kako ograniciti umjesto 30vw na 72px ako je mobile
+	  ili potrazi po webu ima li workaround
 - HTML/CSS validator
 	- https://validator.w3.org/
 	- http://jigsaw.w3.org/css-validator/

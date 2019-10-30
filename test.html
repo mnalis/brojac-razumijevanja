@@ -7,8 +7,8 @@
 <style>
 .button {
   background-color: green;
-  font-size: 100px;
-  width: 2.5em;
+  font-size: 72px;
+  width: 1.5em;
   text-align: center;
   transition: all 0.8s;
   transform: rotate(360deg);
@@ -27,13 +27,23 @@ a {
   color: black;
 }
 
+.big1 {
+  /* font-size: 453%; -- 453% is OK on LG G3, 454% does not show anything! */
+  font-size: 72px; /* 72px is OK on LG G3, 73px displays nothing !! */
+}
+
+.big2 {
+  font-size: 73px;
+}
+
 </style>
 
 </head>
 <body>
-       <div class="button"><a href="#">m&#128557;</a></div>
-       v10
-       <div class="button">&#128557; HTML entity</div>
+       <div class="button"><a href="#">&#128557;</a></div>
+       v11
+       <div class="big1">[&#128557;] size72</div>
+       <div class="big2">[&#128557;] size73</div>
 
 </body>
 </html>
