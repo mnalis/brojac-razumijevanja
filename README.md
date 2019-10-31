@@ -19,5 +19,5 @@ Prilikom zatvaranja ili refresha web stranice, brojač se resetira na nulu.
 - Ruža Kulić - idejno rješenje
 - Ksenija Kulić - HTML & CSS dizajn
 - Matija Nalis - Javascript programiranje
-- www.voyager.hr - web hosting live inačice ( http://mnalis.com/skola/brojac/brojac-razumijevanja.html )
+- www.voyager.hr - web hosting live inačice ( https://mnalis.com/skola/brojac/brojac-razumijevanja.html )
 - github.com - spremanje izvornog koda ( https://github.com/mnalis/brojac-razumijevanja )

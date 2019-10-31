@@ -11,7 +11,7 @@
 	  izgleda da je limit 72px ?! vidi sa media selektorima ili kako ograniciti umjesto 30vw na 72px ako je mobile
 	  ili potrazi po webu ima li workaround
 	  moze i test na https://www.w3schools.com/charsets/tryit.asp?deci=128557
-	  ili http://mnalis.com/skola/brojac/test.html
+	  ili https//mnalis.com/skola/brojac/test/test.html
 	  na redmi note3 pro na 53px radi, na 54px vise ne
 	  na redmi note6 pro na 58px radi, na 59px vise ne
 	  - izgleda da je to bug na mobile browserima: 
