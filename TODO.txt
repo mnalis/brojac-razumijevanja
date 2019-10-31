@@ -1,12 +1,9 @@
 - skrivanje pojedinacnih countera (da se izbjegne bias oko odgovaranja)
-- HTML5 animacije prilikom clicka, zvuk? delay?
-  rotate? ili http://dabblet.com/gist/1670827 
-- grep FIXME *
-- https by default
 - mobitel/laptop/tablet formatting
 	- razmaknuti link na source code od drugih klikabilnih elemenata
 	- google check mobile usability
-	- utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi? 
+
+- utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi? 
 	  vidi test.html tamo ima i radi/ne radi primjer!
 	  izgleda da je limit 72px ?! vidi sa media selektorima ili kako ograniciti umjesto 30vw na 72px ako je mobile
 	  ili potrazi po webu ima li workaround
@@ -23,12 +20,13 @@
 	  - alternativa https://stackoverflow.com/a/40896083/2600099 ?
 	    ili https://graphicdesign.stackexchange.com/questions/31625/are-there-any-free-emoji-fonts
 	  - ili zamijeni sa SVG-ovima
+- HTML5 zvuk uz animaciju prilikom clicka?
 - HTML/CSS validator
 	- https://validator.w3.org/
 	- http://jigsaw.w3.org/css-validator/
 	- https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
 - pametna ploca?
-- skola za zivot objave?
 - merge css/html/js u jedan file za easy update i izbjegavanja refresh problema
   Makefile target za to? koji izvlaci iz src/* i kreira .html ?
   takodjer i inline-svgove za smileys staviti unutra?
+- tests za HTML/CSS/JS validate (t/* i prove(1)) ?

@@ -1,0 +1,4 @@
++ https by default
++ grep FIXME *
++? HTML5 animacije prilikom clicka, zvuk? delay?
+  rotate? ili http://dabblet.com/gist/1670827 
