@@ -32,7 +32,7 @@ html, body{
 .smiley{
 	vertical-align:middle;
 	text-align: center;
-	font-size:21vh;
+	font-size:20vh;
         width: 1.3em;
         transition: all 1.0s;
         transform: rotate(360deg);

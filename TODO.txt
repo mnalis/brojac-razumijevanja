@@ -2,6 +2,7 @@
 - HTML5 animacije prilikom clicka, zvuk? delay?
   rotate? ili http://dabblet.com/gist/1670827 
 - grep FIXME *
+- https by default
 - mobitel/laptop/tablet formatting
 	- razmaknuti link na source code od drugih klikabilnih elemenata
 	- google check mobile usability
@@ -28,3 +29,6 @@
 	- https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
 - pametna ploca?
 - skola za zivot objave?
+- merge css/html/js u jedan file za easy update i izbjegavanja refresh problema
+  Makefile target za to? koji izvlaci iz src/* i kreira .html ?
+  takodjer i inline-svgove za smileys staviti unutra?
