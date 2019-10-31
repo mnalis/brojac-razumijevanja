@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+.googlefont {
+  font-family: 'Roboto';
+}
+
 .button {
   background-color: green;
   font-size: 72px;
@@ -29,15 +34,23 @@ a {
 
 .big1 {
   /* font-size: 453%; -- 453% is OK on LG G3, 454% does not show anything! */
-  font-size: 72px; /* 72px is OK on LG G3, 73px displays nothing !! */
+  font-size: 100px; /* 72px is OK on LG G3, 73px displays nothing !! */
 }
+
+.small1 {
+  font-size: 50px;
+}
+
 
 </style>
 </head>
 <body>
        <div class="button"><a href="#" onclick="return false;" class="innerbox">&#128557;</a></div>
-       v12
-       <div class="big1">[&#128557;] size72</div>
+       v14
+       <div class="small1">[&#128557;] size50</div>
+       <div class="big1"  >[&#128557;] size100</div>
+       <div class="small1 googlefont">[&#128557;] gfont50</div>
+       <div class="big1 googlefont">[&#128557;] gfont100</div>
        <div style="font-size: 73px;" id="parent">[&#128557;] size<input id="number" type="number" value="73" step="1"></div>
 
 <script defer>
