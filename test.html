@@ -21,7 +21,7 @@
 
 }
 
-.button {
+.button1 {
   background-color: green;
   font-size: 72px;
   width: 1.5em;
@@ -30,10 +30,23 @@
   transform: rotate(360deg);
 }
 
-.button:active {
+.button1:active {
   transform: rotate(0deg);
   transition: all 0s;
 }
+
+.button2 {
+  background-color: cyan;
+  font-size: 72px;
+  width: 1.5em;
+  text-align: center;
+  animation: spinning-logocat 2s;
+}
+.button2:active {
+  animation: spin-dat-cat 0s;
+}
+@keyframes spinning-logocat {50%{transform:rotateY(180deg);}}
+@keyframes spin-dat-cat {50%{transform:rotateY(180deg);}}
 
 a {
   /*font-family: Arial, Verdana, Helvetica, sans-serif;*/
@@ -45,22 +58,24 @@ a {
 
 .big1 {
   /* font-size: 453%; -- 453% is OK on LG G3, 454% does not show anything! */
+  /* that seems to be android / chrome bug: https://stackoverflow.com/questions/29142118/why-do-emoji-not-render-above-a-certain-size-in-chrome */
   font-size: 100px; /* 72px is OK on LG G3, 73px displays nothing !! */
 }
 
 .small1 {
-  font-size: 50px;
+  font-size: 49px;
 }
 
 
 </style>
 </head>
 <body>
-       <div class="button"><a href="#" onclick="return false;" class="innerbox">&#128557;</a></div>
-       v14
-       <div class="small1">[&#128557;] size50</div>
+       <div class="button1"><a href="#" onclick="return false;" class="innerbox1">&#128557;</a></div>
+       <div class="button2"><a href="#" onclick="return false;" class="innerbox2">&#128515;</a></div>
+       v15
+       <div class="small1">[&#128557;] size49</div>
        <div class="big1"  >[&#128557;] size100</div>
-       <div class="small1 googlefont">[&#128557;] gfont50</div>
+       <div class="small1 googlefont">[&#128557;] gfont49</div>
        <div class="big1 googlefont">[&#128557;] gfont100</div>
        <div style="font-size: 73px;" id="parent">[&#128557;] size<input id="number" type="number" value="73" step="1"></div>
 
