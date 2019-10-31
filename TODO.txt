@@ -13,6 +13,7 @@
 	  ili http://mnalis.com/skola/brojac/test.html
 	  na redmi note3 pro na 53px radi, na 54px vise ne
 	  na redmi note6 pro na 58px radi, na 59px vise ne
+	  - izgleda da je to bug na mobile browserima: https://stackoverflow.com/a/43889981/2600099
 - HTML/CSS validator
 	- https://validator.w3.org/
 	- http://jigsaw.w3.org/css-validator/
