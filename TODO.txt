@@ -20,6 +20,16 @@
 	  - alternativa https://stackoverflow.com/a/40896083/2600099 ?
 	    ili https://graphicdesign.stackexchange.com/questions/31625/are-there-any-free-emoji-fonts
 	  - ili zamijeni sa SVG-ovima
+- CSS: izbjegavaj px, koristi vh,% ili em
+- CSS compatibility? npr.
+  .rotateimg180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
 - HTML5 zvuk uz animaciju prilikom clicka?
 - HTML/CSS validator
 	- https://validator.w3.org/
@@ -29,4 +39,5 @@
 - merge css/html/js u jedan file za easy update i izbjegavanja refresh problema
   Makefile target za to? koji izvlaci iz src/* i kreira .html ?
   takodjer i inline-svgove za smileys staviti unutra?
+  verziju u obliku datuma isto stavi u HTML help
 - tests za HTML/CSS/JS validate (t/* i prove(1)) ?
