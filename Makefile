@@ -1,4 +1,4 @@
-USER=$(shell find . -maxdepth 1 -name brojac-razumijevanja.html  -printf %u)
+USER=$(shell find . -maxdepth 1 -name brojac-razumijevanja.html -or -name LICENSE  -printf %u)
 DST=brojac-razumijevanja.html
 SVGS=svg/1f603.svg svg/1f610.svg svg/1f62d.svg
 
