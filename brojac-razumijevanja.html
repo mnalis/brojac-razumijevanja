@@ -16,6 +16,7 @@ html, body, #container{
 	float: left;
 	background-color:#CAC7C5;
 	width: max-content;
+	max-width: 100%;
 }
 
 .glavni{
@@ -103,7 +104,7 @@ html, body, #container{
 }
 
 .info {
-	margin-top: 0.1em;
+	margin: 0.1em;
 	font-family: sans-serif;
 }
 
@@ -112,6 +113,10 @@ html, body, #container{
 	float: right;
 	margin-left: auto;
 	margin-right: 0.1em;
+}
+
+.clearfix {
+	clear: both;
 }
 </style>
 
@@ -134,7 +139,7 @@ html, body, #container{
 			</tr>
 		</table>
 		<div>
-			<div class="line">
+			<div class="clearfix line">
 				<table class="brojac">
 					<tr>
 						<th>Ukupno</th>
@@ -152,7 +157,7 @@ html, body, #container{
 			</div>
 			<div class="line right">
 				<div class="info">
-					Pokaži <A HREF="https://github.com/mnalis/brojac-razumijevanja" title="Build: SVG Sun Nov 10 23:51:46 2019">upute i kod</A>
+					Pokaži <A HREF="https://github.com/mnalis/brojac-razumijevanja" title="Build: SVG Sun Nov 10 23:59:17 2019">upute i kod</A>
 				</div>
 				<div class="sakrij">
 					<input type="checkbox" name="sakrij" id="sakrij"> Sakrij brojače
