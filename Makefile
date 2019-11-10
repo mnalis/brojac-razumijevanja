@@ -16,7 +16,7 @@ clean:
 
 publish: build
 	git commit -a || true
-	git push
+	git push --all
 
 
-.PHONY: build update publish
+.PHONY: build update publish clean

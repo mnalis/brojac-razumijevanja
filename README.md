@@ -16,9 +16,13 @@ Brojač je napravljen u Javascriptu, i ne sprema podatke nigdje van lokalnog ra�
 Ne zahtjeva Internet, i može se koristiti offline (treba samo brojac-razumijevanja.html kopirati na lokalno računalo u isti folder).
 Prilikom zatvaranja ili ponovnog pokretanja (refresha) web stranice (F5 tipka), brojači se resetiraju na nulu.
 
-## Problemi:
-U slučaju da se (pogotovo na mobilnim uređajima) umjesto smješka/plačka pojave samo obojani kvadrati,
-ili kakvih drugih problema ili pitanja, molio bih da me kontaktirate na e-mail mnalis-brojacskola@voyager.hr 
+## Problemi i prijedlozi:
+U slučaju da se (pogotovo na starijim mobilnim uređajima) umjesto smješka/plačka pojave samo obojani kvadrati,
+[SVG branch na githubu](https://github.com/mnalis/brojac-razumijevanja/tree/svg) bi trebao
+riješiti problem.
+
+U slučaju bilo kakvih prijedloga, ideja, problema ili pitanja, molio bih da
+me kontaktirate na e-mail mnalis-brojacskola@voyager.hr
 
 ## Credits:
 - Ruža Kulić - idejno rješenje
