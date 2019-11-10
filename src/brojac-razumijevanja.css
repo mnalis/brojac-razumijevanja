@@ -3,11 +3,11 @@ html, body, #container{
   	width: 100%;
 	padding:0;
 	margin:0 auto;
+	background-color:#CAC7C5;
 }
 
 #container{
 	float: left;
-	background-color:#CAC7C5;
 	width: max-content;
 	max-width: 100%;
 }
