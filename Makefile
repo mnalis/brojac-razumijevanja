@@ -14,7 +14,7 @@ $(DST): src/* merge_html.pl Makefile $(SVGS)
 
 update:
 	chmod 700 .git
-	chown -R ($USER): .git
+	chown -R $(USER): .git
 	umask 077; if [ "`id -un`" = "$(USER)" ] ; then git pull; else env -i setuidgid $(USER) git pull; fi
 	chmod -R a=rX,u=wr *.html *.txt *.md LICENSE
 
