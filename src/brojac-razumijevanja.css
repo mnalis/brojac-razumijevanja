@@ -12,7 +12,7 @@ html, body{
 .glavni{
 	height:80%;
 	border-collapse: collapse;
-	margin-bottom:1em;
+	margin-bottom: 1em;
 	
 }
 
@@ -36,6 +36,14 @@ html, body{
         width: 1.3em;
         transition: all 1.0s;
         transform: rotate(360deg);
+}
+
+
+.smiley img {
+	height: 1em;
+	width: 1em;
+	top: .125em;
+	position: relative;
 }
 
 .smiley:active {
