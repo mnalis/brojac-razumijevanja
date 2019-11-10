@@ -4,7 +4,7 @@
 	- razmaknuti link na source code od drugih klikabilnih elemenata
 	- google check mobile usability
 
-- utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi? 
++? utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi? 
 	  vidi test.html tamo ima i radi/ne radi primjer!
 	  izgleda da je limit 72px ?! vidi sa media selektorima ili kako ograniciti umjesto 30vw na 72px ako je mobile
 	  ili potrazi po webu ima li workaround
@@ -24,8 +24,6 @@
 		zapravo: https://iconify.design/icon-sets/emojione/ (https://github.com/emojione/emojione) CC BY-SA 4.0
 		ili https://github.com/googlefonts/noto-emoji/tree/master/svg (Apache-2.0 license)
 		
-+ CSS: izbjegavaj px, koristi vh,% ili em
-
 - CSS compatibility? npr.
   .rotateimg180 {
     -webkit-transform:rotate(180deg);
@@ -47,7 +45,7 @@
 + pametna ploca?
 	 + radi i na njoj!
 
-- merge css/html/js u jedan file za easy update i izbjegavanja refresh problema
++ merge css/html/js u jedan file za easy update i izbjegavanja refresh problema
   + Makefile target za to? koji izvlaci iz src/* i kreira .html ?
-  - takodjer i inline-svgove za smileys staviti unutra?
+  + takodjer i inline-svgove za smileys staviti unutra?
   +? verziju u obliku datuma isto stavi u HTML help

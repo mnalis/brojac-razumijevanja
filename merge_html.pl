@@ -6,13 +6,15 @@ use autodie qw(:all);
 
 sub insert_file($$) {
 	my ($tag, $filename) = @_;
+	my $ret = '';
 
-	print "<$tag>\n";
+	$ret .= "<$tag>\n" if $tag;
 	open my $include, '<', $filename;
 	while (<$include>) {
-		print;
+		$ret .= $_;
 	}
-	return "</$tag>\n";
+	$ret .= "</$tag>\n" if $tag;
+	return $ret;
 }
 
 my $VERSION=localtime;
@@ -20,6 +22,7 @@ my $VERSION=localtime;
 while (<STDIN>) {
 	s{<link href="(.*?)" rel="stylesheet">}{insert_file('style', $1)}ge;	# insert CSS
 	s{<script src="(.*?)"></script>}{insert_file('script', $1)}ge;		# insert JS
+	s{<img src="(.*?)" alt=".*?">}{insert_file('', $1)}ge;			# insert SVG
 	s{_DEVEL_VER_}{$VERSION}g;						# update version
 	print;
 }

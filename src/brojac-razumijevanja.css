@@ -39,7 +39,7 @@ html, body{
 }
 
 
-.smiley img {
+.smiley img, .smiley svg {
 	height: 1em;
 	width: 1em;
 	top: .125em;
