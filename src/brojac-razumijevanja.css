@@ -1,12 +1,14 @@
-html, body{
+html, body, #container{
 	height: 100%;
   	width: 100%;
+	padding:0;
+	margin:0 auto;
 }
 
 #container{
+	float: left;
 	background-color:#CAC7C5;
-	padding:0;
-	margin:0 auto;
+	width: max-content;
 }
 
 .glavni{
@@ -85,7 +87,6 @@ html, body{
 .line {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 1em;
 }
 
 .sakrij {
@@ -97,4 +98,11 @@ html, body{
 .info {
 	margin-top: 0.1em;
 	font-family: sans-serif;
+}
+
+.right {
+	text-align: right;
+	float: right;
+	margin-left: auto;
+	margin-right: 0.1em;
 }
