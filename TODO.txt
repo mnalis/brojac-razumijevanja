@@ -20,7 +20,7 @@
 	  - v. font fallbacks - https://www.youtube.com/watch?v=tO01ul1WNW8
 	  - alternativa https://stackoverflow.com/a/40896083/2600099 ?
 	    ili https://graphicdesign.stackexchange.com/questions/31625/are-there-any-free-emoji-fonts
-	  - ili zamijeni sa SVG-ovima npr. https://www.freepik.com/ ili https://thenounproject.com/
+	  +? ili zamijeni sa SVG-ovima npr. https://www.freepik.com/ ili https://thenounproject.com/
 		zapravo: https://iconify.design/icon-sets/emojione/ (https://github.com/emojione/emojione) CC BY-SA 4.0
 		ili https://github.com/googlefonts/noto-emoji/tree/master/svg (Apache-2.0 license)
 		
