@@ -10,7 +10,7 @@ html, body{
 }
 
 .glavni{
-	height:90%;
+	height:80%;
 	border-collapse: collapse;
 	margin-bottom:1em;
 	
@@ -32,7 +32,7 @@ html, body{
 .smiley{
 	vertical-align:middle;
 	text-align: center;
-	font-size:16vh;
+	font-size:18vh;
         width: 1.3em;
         transition: all 1.0s;
         transform: rotate(360deg);
@@ -66,6 +66,7 @@ html, body{
 }
 
 .brojac th{
+	font-family: sans-serif;
 	background-color:#c2b4f1;
 }
 
@@ -76,4 +77,13 @@ html, body{
 .line {
 	display: inline-block;
 	vertical-align: top;
+}
+
+.sakrij {
+	font-family: sans-serif;
+	font-size: large;
+}
+
+.info {
+	font-family: sans-serif;
 }
