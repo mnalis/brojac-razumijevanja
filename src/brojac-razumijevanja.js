@@ -6,10 +6,13 @@ function initHandlers() {
 	'use strict';
 	//console.log ("start initHandlers");
 
-	// svaka click neka updatea countere
+	// svaki click neka updatea countere
 	document.getElementById('smileyhappy').onclick		= function() { return incrementCounter('count_happy'); };
 	document.getElementById('smileyneutral').onclick	= function() { return incrementCounter('count_neutral'); };
 	document.getElementById('smileysad').onclick		= function() { return incrementCounter('count_sad'); };
+
+	// skrivanje countera
+	document.getElementById('sakrij').onchange		= hideCounters;
 
 	// initialize counters to 0
 	document.getElementById('count_total').innerHTML	= '0';
@@ -19,6 +22,20 @@ function initHandlers() {
 
 	//console.log ("end initHandlers");
 	return true;
+}
+
+function hideCounters() {
+	'use strict';
+	var display;
+	if (this.checked) {
+		display = 'none';
+	} else {
+		display = 'table-cell';
+	}
+
+	document.getElementById('count_happy').style.display = display;
+	document.getElementById('count_neutral').style.display = display;
+	document.getElementById('count_sad').style.display = display;
 }
 
 function incrementCounter(id) {

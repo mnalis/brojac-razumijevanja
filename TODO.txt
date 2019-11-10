@@ -1,4 +1,6 @@
-- skrivanje pojedinacnih countera (da se izbjegne bias oko odgovaranja)
++ skrivanje pojedinacnih countera (da se izbjegne bias oko odgovaranja)
+- upute iz README.md linkati na HTML help (kojeg prvo treba napraviti)
+
 - mobitel/laptop/tablet formatting
 	- razmaknuti link na source code od drugih klikabilnih elemenata
 	- google check mobile usability

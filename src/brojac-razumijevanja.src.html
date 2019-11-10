@@ -22,23 +22,32 @@
 				<td>Ne razumijem današnje nastavne sadržaje.</td>
 			</tr>
 		</table>
-		<table class="brojac">
-			<tr>
-				<th>Ukupno</th>
-				<th>Zeleno</th>
-				<th>Žuto</th>
-				<th>Crveno</th>
-			</tr>
-			<tr>	
-				<td><span id="count_total">initilizing JS</span></td>
-				<td><span id="count_happy">initilizing JS</span></td>
-				<td><span id="count_neutral">initilizing JS</span></td>
-				<td><span id="count_sad">initilizing JS</span></td>
-			</tr>
-		</table>
-		<footer>
-			<A HREF="https://github.com/mnalis/brojac-razumijevanja" title="Build: _DEVEL_VER_">Izvorni kod i upute</A>
-		</footer>
+		<div>
+			<div class="line">
+				<table class="brojac">
+					<tr>
+						<th>Ukupno</th>
+						<th>Zeleno</th>
+						<th>Žuto</th>
+						<th>Crveno</th>
+					</tr>
+					<tr>
+						<td><span id="count_total">initilizing JS</span></td>
+						<td><span id="count_happy">initilizing JS</span></td>
+						<td><span id="count_neutral">initilizing JS</span></td>
+						<td><span id="count_sad">initilizing JS</span></td>
+					</tr>
+				</table>
+			</div>
+			<div class="line">
+				<div>
+					Pokaži <A HREF="https://github.com/mnalis/brojac-razumijevanja" title="Build: _DEVEL_VER_">Izvorni kod i upute</A>
+				</div>
+				<div>
+					<input type="checkbox" name="sakrij" id="sakrij">Sakrij brojače
+				</div>
+			</div>
+		</div>
         <script src="brojac-razumijevanja.js"></script>
 	</body>
 </html>

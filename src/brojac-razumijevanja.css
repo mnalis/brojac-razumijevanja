@@ -72,3 +72,8 @@ html, body{
 .brojac table, .brojac th, .brojac td{
   	border: 1px solid black;
 }
+
+.line {
+	display: inline-block;
+	vertical-align: top;
+}
