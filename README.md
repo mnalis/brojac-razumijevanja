@@ -26,3 +26,6 @@ ili kakvih drugih problema ili pitanja, molio bih da me kontaktirate na e-mail m
 - Matija Nalis - Javascript programiranje
 - www.voyager.hr - web hosting live inačice ( https://mnalis.com/skola/brojac/brojac-razumijevanja.html )
 - github.com - spremanje izvornog koda ( https://github.com/mnalis/brojac-razumijevanja )
+
+## Licenca:
+- slobodan softver - [GPL v3.0 ili veća](LICENSE)
