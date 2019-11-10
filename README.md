@@ -11,8 +11,7 @@ Učitelj(ica) nakon sata pogleda kakvo je bilo razumijevanje.
 ## Napomene:
 
 Brojač je napravljen u Javascriptu, i ne sprema podatke nigdje van lokalnog računala. 
-Ne zahtjeva Internet, i može se koristiti offline (treba brojac-razumijevanja.css, 
-brojac-razumijevanja.html i brojac-razumijevanja.js kopirati na lokalno računalo u isti folder).
+Ne zahtjeva Internet, i može se koristiti offline (treba samo brojac-razumijevanja.html kopirati na lokalno računalo u isti folder).
 Prilikom zatvaranja ili refresha web stranice (F5 tipka), brojač se resetira na nulu.
 
 ## Problemi:

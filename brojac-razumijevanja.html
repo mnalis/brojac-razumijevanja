@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="hr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Brojač razumijevanja</title>
+<style>
+html, body{
+	height: 100%;
+  	width: 100%;
+}
+
+#container{
+	background-color:#CAC7C5;
+	padding:0px;
+	margin:0 auto;
+}
+
+.glavni{
+	height:90%;
+	border-collapse: collapse;
+	margin-bottom:1em;
+	
+}
+
+.glavni tr{
+	padding:0px;
+	margin:0;
+	width: 100%;
+	border-style: solid;
+		
+}
+
+.glavni td{
+	vertical-align:middle;
+	padding: 0.5em;
+}
+
+.smiley{
+	vertical-align:middle;
+	text-align: center;
+	font-size:20vh;
+        width: 1.3em;
+        transition: all 1.0s;
+        transform: rotate(360deg);
+}
+
+.smiley:active {
+	transform: rotate(0deg);
+	transition: all 0s;
+}
+
+.smiley a {
+	color:black;
+	text-decoration:none;
+	border-radius:0.2em;
+}
+
+.smiley a:active {
+	color: yellow;
+}
+
+#smileyhappy{
+	background-color: green;
+}
+
+#smileyneutral{
+	background-color: lightgrey;
+}
+
+#smileysad{
+	background-color: red;
+}
+
+.brojac th{
+	background-color:#c2b4f1;
+}
+
+.brojac table, .brojac th, .brojac td{
+  	border: 1px solid black;
+}
+		</style>
+
+	</head>
+	<body id="container">
+		<table class="glavni">
+			<tr>
+				<td><div class="smiley"><a href="#" id="smileyhappy">&#128515;</a></div></td>
+				<td>Razumijem današnje nastavne sadržaje</td>
+			</tr>
+			
+			<tr>
+				<td><div class="smiley"><a href="#" id="smileyneutral">&#128528;</a></div></td>
+				<td>Trebam još malo učenja</td>
+			</tr>
+			<tr>
+				<td><div class="smiley"><a href="#" id="smileysad">&#128557;</a></div></td>
+				<td>Ne razumijem današnje nastavne sadržaje</td>
+			</tr>
+		</table>
+		<table class="brojac">
+			<tr>
+				<th>Ukupno</th>
+				<th>Zeleno</th>
+				<th>Žuto</th>
+				<th>Crveno</th>
+			</tr>
+			<tr>	
+				<td><span id="count_total">initilizing JS</span></td>
+				<td><span id="count_happy">initilizing JS</span></td>
+				<td><span id="count_neutral">initilizing JS</span></td>
+				<td><span id="count_sad">initilizing JS</span></td>
+			</tr>
+		</table>
+		<footer>
+			<A HREF="https://github.com/mnalis/brojac-razumijevanja">Izvorni kod i upute</A>
+		</footer>
+<script>
+// Matija Nalis <mnalis-git@voyager.hr> started 20191029 under GPLv3+
+// on https://github.com/mnalis/brojac-razumijevanja
+
+function initHandlers() {
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+	'use strict';
+	//console.log ("start initHandlers");
+
+	// svaka click neka updatea countere
+	document.getElementById('smileyhappy').onclick		= function() { return incrementCounter('count_happy'); };
+	document.getElementById('smileyneutral').onclick	= function() { return incrementCounter('count_neutral'); };
+	document.getElementById('smileysad').onclick		= function() { return incrementCounter('count_sad'); };
+
+	// initialize counters to 0
+	document.getElementById('count_total').innerHTML	= '0';
+	document.getElementById('count_happy').innerHTML	= '0';
+	document.getElementById('count_neutral').innerHTML	= '0';
+	document.getElementById('count_sad').innerHTML		= '0';
+
+	//console.log ("end initHandlers");
+	return true;
+}
+
+function incrementCounter(id) {
+	'use strict';
+	//console.log(id);
+
+	var count_id = +document.getElementById(id).innerHTML;		// convert string to number
+	document.getElementById(id).innerHTML = count_id + 1;
+
+	var count_total = +document.getElementById('count_total').innerHTML;
+	document.getElementById('count_total').innerHTML = count_total + 1;
+
+	return false;							// important: so submit button does nothing
+}
+
+initHandlers();
+        </script>
+
+	</body>
+</html>
