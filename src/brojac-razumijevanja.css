@@ -14,7 +14,7 @@ html, body, #container{
 }
 
 .glavni{
-	height: 75%;
+	height: 80%;
 	border-collapse: collapse;
 	margin-bottom: 1em;
 	
@@ -36,7 +36,7 @@ html, body, #container{
 .smiley{
 	vertical-align: middle;
 	text-align: center;
-	font-size: 17vh;
+	font-size: 16vh;
 	width: 1.3em;
 	transition: all 1.0s;
 	transform: rotate(360deg);
