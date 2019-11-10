@@ -28,7 +28,7 @@ svg/%.svg:
 
 publish: build
 	git commit -a || true
-	git push
+	git push --all
 
 
 .PHONY: build update update-svg publish clean distclean

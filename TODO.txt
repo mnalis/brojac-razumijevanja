@@ -4,6 +4,7 @@
 	- razmaknuti link na source code od drugih klikabilnih elemenata
 	- google check mobile usability
 
+
 +? utf-8 smiley ne radi na xiaomi redmi note6 pro ??? prazni boxovi. font probaj drugi? 
 	  vidi test.html tamo ima i radi/ne radi primjer!
 	  izgleda da je limit 72px ?! vidi sa media selektorima ili kako ograniciti umjesto 30vw na 72px ako je mobile
@@ -49,3 +50,6 @@
   + Makefile target za to? koji izvlaci iz src/* i kreira .html ?
   + takodjer i inline-svgove za smileys staviti unutra?
   +? verziju u obliku datuma isto stavi u HTML help
+
+- add SVG accessibility  tags?
+  https://developer.paciellogroup.com/blog/2013/12/using-aria-enhance-svg-accessibility/
