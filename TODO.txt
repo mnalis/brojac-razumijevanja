@@ -36,9 +36,10 @@
 	- https://validator.w3.org/
 	- http://jigsaw.w3.org/css-validator/
 	- https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
-- pametna ploca?
++ pametna ploca?
+	 + radi i na njoj!
 - merge css/html/js u jedan file za easy update i izbjegavanja refresh problema
-  Makefile target za to? koji izvlaci iz src/* i kreira .html ?
-  takodjer i inline-svgove za smileys staviti unutra?
-  verziju u obliku datuma isto stavi u HTML help
+  + Makefile target za to? koji izvlaci iz src/* i kreira .html ?
+  - takodjer i inline-svgove za smileys staviti unutra?
+  +? verziju u obliku datuma isto stavi u HTML help
 - tests za HTML/CSS/JS validate (t/* i prove(1)) ?

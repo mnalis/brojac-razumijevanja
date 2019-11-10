@@ -3,7 +3,7 @@ USER=$(shell find . -maxdepth 1 -name brojac-razumijevanja.html  -printf %u)
 build: brojac-razumijevanja.html
 	@echo Finishing as user=$(USER)...
 
-brojac-razumijevanja.html: src/*
+brojac-razumijevanja.html: src/* merge_html.pl Makefile
 	cd src && ../merge_html.pl < brojac-razumijevanja.src.html > ../brojac-razumijevanja.html
 
 update:
