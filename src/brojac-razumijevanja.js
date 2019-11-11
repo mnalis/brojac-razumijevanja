@@ -27,7 +27,7 @@ function initHandlers() {
 function hideCounters() {
 	'use strict';
 	var display;
-	if (this.checked) {
+	if (document.getElementById('sakrij').checked) {
 		display = 'none';
 	} else {
 		display = 'table-cell';

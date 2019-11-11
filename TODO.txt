@@ -36,12 +36,12 @@
 
 - HTML5 zvuk uz animaciju prilikom clicka?
 
-- HTML/CSS validator
-	- https://validator.w3.org/
-	- http://jigsaw.w3.org/css-validator/
-	- https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
++ HTML/CSS validator
+	+ https://validator.w3.org/
+	+ http://jigsaw.w3.org/css-validator/
+	+ https://codebeautify.org/jsvalidate i http://beautifytools.com/javascript-validator.php
 
-- tests za HTML/CSS/JS validate (t/* i prove(1)) ?
+- automated tests za HTML/CSS/JS validate (t/* i prove(1)) ?
 
 + pametna ploca?
 	 + radi i na njoj!

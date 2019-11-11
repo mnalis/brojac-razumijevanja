@@ -155,7 +155,7 @@ html, body, #container{
 			</div>
 			<div class="line right">
 				<div class="info">
-					Pokaži <A HREF="https://github.com/mnalis/brojac-razumijevanja/tree/svg" title="Build: SVG Mon Nov 11 00:47:28 2019">upute i kod</A>
+					Pokaži <A HREF="https://github.com/mnalis/brojac-razumijevanja/tree/svg" title="Build: SVG Mon Nov 11 01:03:52 2019">upute i kod</A>
 				</div>
 				<div class="sakrij">
 					<input type="checkbox" name="sakrij" id="sakrij"> Sakrij brojače
@@ -193,7 +193,7 @@ function initHandlers() {
 function hideCounters() {
 	'use strict';
 	var display;
-	if (this.checked) {
+	if (document.getElementById('sakrij').checked) {
 		display = 'none';
 	} else {
 		display = 'table-cell';
